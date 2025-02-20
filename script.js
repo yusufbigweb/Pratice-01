@@ -34,5 +34,5 @@ if(hourse === 0 && prepand === "AM"){
     }
 }
 
-document.body.innerHTML = `This is Curret: ${hourse} ${prepand} and ${minute} : ${second}`
-
+document.body.innerHTML = `This is Curret: ${hourse} ${prepand} and ${minute} : ${second}`; // display on web veiw
+console.log(`this is current time: ${hourse} ${prepand} and ${minute} : ${second}`);
